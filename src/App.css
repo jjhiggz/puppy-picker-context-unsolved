@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "Rubik Bubbles";
+  src: local("Rubik Bubbles"),
+    url("./fonts/RubikBubbles-Regular.ttf") format("truetype");
+  font-weight: regular;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-header {
+  color: black;
+  width: 100%;
+  background-color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#create-dog-form {
+  height: 500px;
+  color: white;
+  font-size: 30px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-left: 18px solid yellowgreen;
+  border-bottom: 18px solid khaki;
+  border-right: 18px solid tomato;
+  border-top: 18px solid teal;
+  margin: 10px;
+}
+
+#create-dog-form h4 {
+  margin: 0px;
+}
+
+#create-dog-form label {
+  margin-top: 20px;
+}
+#create-dog-form input[type="submit"] {
+  margin-top: 20px;
+  color: black;
+}
+
+#create-dog-form input {
+  color: black;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+#create-dog-form select {
+  color: black;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.selectors {
+  display: flex;
+}
+
+.selector {
+  user-select: none;
+  border: 1px solid black;
+  border-radius: 400px;
+  padding: 4px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.selector.active {
+  background-color: black;
+  color: white;
+}
+
+section {
+  border: 2px solid black;
+  display: flex;
+  margin: 0px 20px 30px 20px;
+  background-color: black;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.dog-card {
+  width: 200px;
+  height: 340px;
+  background-color: white;
+  border: 5px dotted;
+  margin: 20px;
+  position: relative;
+}
+
+.dog-name {
+  color: rgb(170, 255, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;
+  font-family: Rubik Bubbles;
+  font-size: 25px;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 1px 5px black;
+}
+
+.dog-description {
+  color: black;
+  margin-top: 0px;
+  padding: 0px 10px;
+}
+
+.dog-card img {
+  width: 100%;
+  max-height: 50%;
+  resize: both;
+  border-bottom: 5px solid black;
+}
+
+.favorite-overlay,
+.unfavorite-overlay {
+  all: unset;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  resize: both;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+}
+
+.favorite-overlay.active {
+  background-color: rgba(94, 141, 0, 0.4);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.unfavorite-overlay.active {
+  background-color: rgba(141, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.description-container {
+  position: relative;
+}
+
+.favorite-button,
+.unfavorite-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 0px solid transparent;
+  background-color: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+  color: transparent;
+  z-index: 2;
+}
+
+.favorite-button:hover,
+.unfavorite-button:hover,
+.trash-button:hover {
+  opacity: 1;
+}
+
+.trash-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 0px solid transparent;
+  background-color: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+  color: transparent;
+  z-index: 2;
+}
+
+.modal {
+  position: absolute;
+  height: 500px;
+  width: 1000px;
+  z-index: 10;
+  background-color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 40px solid purple;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#close-modal-button {
+  all: unset;
+  font-size: 40px;
+  background-color: tomato;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+
+#accept-modal-button {
+  all: unset;
+  font-size: 40px;
+  background-color: darkgreen;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid gray;
+}

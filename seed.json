@@ -1,0 +1,40 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Doomslayer",
+      "image": "/src/assets/blue-heeler.png",
+      "description": "DoomSlayer is basically the best dog there's ever been"
+    },
+    {
+      "id": 2,
+      "name": "Joe",
+      "image": "/src/assets/boxer.png",
+      "description": "Joe is the cutest lil Boxer. He loves jumping and of course boxing"
+    },
+    {
+      "id": 3,
+      "name": "Taco",
+      "image": "/src/assets/chihuahua.avif",
+      "description": "He's just like the taco bell dog. It's in the name"
+    },
+    {
+      "id": 4,
+      "name": "Queen",
+      "image": "/src/assets/corgi.png",
+      "description": "Queen is such a lil cutie, you better treat her like the little princess she is"
+    },
+    {
+      "id": 5,
+      "name": "Courage",
+      "image": "/src/assets/cowardly.png",
+      "description": "All in all, he's such a good boy, he'll save you from all kinds of monsters"
+    },
+    {
+      "id": 6,
+      "name": "Dingo",
+      "image": "/src/assets/dalmation.png",
+      "description": "It's a little confusing but Dingo is actually not a dingo he's a dalmation"
+    }
+  ]
+}

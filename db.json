@@ -1,0 +1,46 @@
+{
+  "dogs": [
+    {
+      "name": "Cydney",
+      "image": "/src/assets/blue-heeler.png",
+      "description": "East Oro Bugatti South Supervisor Product cumbersome",
+      "isFavorite": true,
+      "id": 6
+    },
+    {
+      "name": "Jalon",
+      "image": "/src/assets/blue-heeler.png",
+      "description": "Innovative Money Tuna Palladium Handmade Tricycle versus black",
+      "isFavorite": false,
+      "id": 7
+    },
+    {
+      "name": "Juanita",
+      "image": "/src/assets/dalmation.png",
+      "description": "redefine online feed bus unaccountably Hybrid Turnpike",
+      "isFavorite": false,
+      "id": 9
+    },
+    {
+      "name": "Julien",
+      "image": "/src/assets/corgi.png",
+      "description": "West Agent viral Electric vertical that Minivan",
+      "isFavorite": true,
+      "id": 10
+    },
+    {
+      "name": "Laurine",
+      "image": "/src/assets/corgi.png",
+      "description": "Sausages pfft Rolls navigating male",
+      "isFavorite": false,
+      "id": 18
+    },
+    {
+      "name": "Jim",
+      "description": "Jim is a dog, a very cute dog",
+      "isFavorite": false,
+      "image": "/src/assets/chihuahua.avif",
+      "id": 20
+    }
+  ]
+}

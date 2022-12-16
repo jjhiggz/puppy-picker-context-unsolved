@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+header {
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+header h1 {
+  margin: 10px;
+  font-family: Rubik Bubbles;
+  letter-spacing: 10px;
+  text-align: center;
+}

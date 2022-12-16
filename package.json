@@ -1,0 +1,31 @@
+{
+  "name": "favorites-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "serve": "json-server --watch db.json",
+    "seed": "node reseed-db.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/faker": "^6.6.9",
+    "faker": "^6.6.6",
+    "json-server": "^0.17.1",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-react": "^7.31.11",
+    "vite": "^3.2.3"
+  }
+}
